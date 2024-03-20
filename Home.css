@@ -1,0 +1,87 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Tower_Bridge_from_Shad_Thames.jpg/1200px-Tower_Bridge_from_Shad_Thames.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+}
+.contentainer{
+    width: 100%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+.logo{
+    position: fixed;
+    float: left;
+    margin: 10px 36px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+.userProfile{
+    position: fixed;
+    float: right;
+    margin: 10px 36px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    background: rgba(0,0,0,0);
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+    
+}
+nav.black ul{
+    background: #000;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(237, 237, 237);
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
