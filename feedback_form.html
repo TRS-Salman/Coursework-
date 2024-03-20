@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Feedback form</title>
+        <link rel="stylesheet" href="feedback_form_style.css">
+    </head>
+    <body>
+        <form>
+        <fieldset>
+        <h1 id="feedback">Feedback form</h1>
+        <h5 id="required">Required fields<sup>*</sup></h5>
+        <div id="box1">
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" placeholder="Enter your name here" required>
+        </div>
+        <div id="box2">
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" placeholder="Enter email here">
+        </div>
+        <div>
+            <label> Was this your first time visiting? </label>
+            <div>
+                <input type="radio" name="chose">
+                <label for="Yes">Yes</label>
+                <input type="radio" name="chose">
+                <label for="no">No</label>
+            </div>
+        </div>
+        <div>
+            <label> Was this website informative and easy to navigate through? </label>
+            <div>
+                <input type="radio" name="chose1">
+                <label for="Yes">Yes</label>
+                <input type="radio" name="chose1">
+                <label for="no">No</label>
+            </div>
+        </div>
+        <div>
+            <label>If 'No' , suggest any imporvements for the future: </label>
+            <div>
+	            <textarea id="content" name="content" rows="5" cols="20" value="Add your Message here" required>
+                </textarea>
+            </div>
+        </div>
+        <div>
+            <label>How satisfied are you with Our services? choose from 0 to 10,with 1 being <br>"Not satisfied at all" and 10 being "Extremly satisfied"</label>
+            <div>
+                <label for="0">0</label>
+                <input type="radio" name="chose3">
+                <label for="1">1</label>
+                <input type="radio" name="chose3">
+                <label for="2">2</label>
+                <input type="radio" name="chose3">
+                <label for="3">3</label>
+                <input type="radio" name="chose3">
+                <label for="4">4</label>
+                <input type="radio" name="chose3">
+                <label for="5">5</label>
+                <input type="radio" name="chose3">
+                <label for="6">6</label>
+                <input type="radio" name="chose3">
+                <label for="7">7</label>
+                <input type="radio" name="chose3">
+                <label for="8">8</label>
+                <input type="radio" name="chose3">
+                <label for="9">9</label>
+                <input type="radio" name="chose3">
+                <label for="10">10</label>
+                <input type="radio" name="chose3">
+            </div>
+        </div>
+        <div>
+            <label>Would you recomment our services</label>
+            <div>
+                <input type="radio" name="chose4">
+                <label for="Yes">Yes</label>
+                <input type="radio" name="chose4">
+                <label for="no">No</label>
+            </div>
+        </div>
+        <div>
+            <label>Would you like to receive updates about the website and any offers?</label>
+            <div>
+                <select name="" id="">
+                    <option value="Yes-via email">Yes-via email</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <label>Do you have any additional questions or requests?</label>
+            <div>
+	            <textarea id="content" name="content" rows="5" cols="20" value="Add your Message here" required>
+                </textarea>
+            </div>
+        </div>
+        <div>
+            <input type="button" name="submit" value="Submit">
+        </div>
+
+        </fieldset>
+        </form>
+    </body>
+</html>
