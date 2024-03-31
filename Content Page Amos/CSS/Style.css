@@ -1,0 +1,216 @@
+/*Page Editor Ref*/
+.EditorPage-Ref{
+    background-color:rgb(67 0 86);
+    padding:10px;
+    text-align: center;
+      /* unvisited link */
+    a:link {
+      color: white;
+    }
+
+      /* visited link */
+    a:visited {
+      color: white;
+    }
+
+      /* mouse over link */
+    a:hover {
+      color: white;
+    }
+
+      /* selected link */
+    a:active {
+      color: blue;
+    }
+}
+
+/*Content Profile*/
+li{
+  color:white;
+}
+
+small{
+  color:lightgray;
+}
+
+.WhiteBox{
+  background-color:white;
+  padding:40px;
+  text-align: center;
+}
+
+.OrangeBox{
+    background-color:#FC6A03;
+    text-align: center;
+    color:white; 
+}
+
+.PCenter{
+  padding:100px;
+}
+
+.PLeft {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 400px;
+  padding-right:50px;
+}
+
+.PRight{
+  padding-top:100px;
+  padding-bottom:100px;
+  padding-left:200px;
+  padding-right:400px;
+}
+
+.ContentPageLink{
+    /* unvisited link */
+  a:link {
+    color: White;
+  }
+
+    /* visited link */
+  a:visited {
+    color: White;
+  }
+
+    /* mouse over link */
+  a:hover {
+    color: yellow;
+  }
+
+    /* selected link */
+  a:active {
+    color: blue;
+  }
+}
+
+
+/*Editors page*/
+.EditorPage-Body{
+text-align: center;
+}
+
+.EditorPage-Self{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+} 
+
+/*User Profile*/
+.profile-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .progress {
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .progress-bar {
+    background-color: #007bff;
+    height: 20px;
+    width: 0%;
+  }
+
+
+/*team Profile*/
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .team-member {
+    margin: 20px;
+    position: relative;
+    cursor: pointer;
+  }
+  .thumbnail {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ccc;
+    transition: transform 0.3s ease;
+  }
+  .team-member:hover .thumbnail {
+    transform: scale(1.1);
+  }
+  .member-details {
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease, bottom 0.3s ease;
+  }
+  .team-member:hover .member-details {
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+/*Nav Bar - -Salman*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Merriweather', serif;
+}
+
+
+/* navbar */
+#navbar{
+    background-color: rgb(67 0 86);
+    position: static;
+    
+}
+#logo{
+    margin-left: 15px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+#logo span{
+    color: #ffc800;
+}
+#logo #span1{
+    font-size: 30px;
+    
+}
+.navbar-nav{
+    margin-left: 20px;
+    padding-right: 40%;
+}
+.nav-item{
+    
+    padding-left: 20px;
+}
+.nav-item .nav-link{
+    color: white;
+    margin-left: 2px;
+    text-shadow: 0px 0px 1px black;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    color: #ffc800;
+}
+.dropdown-menu li a{
+    color: white;
+    transition: 0.5s ease;
+}
+.dropdown-menu li a:hover{
+    background-color: rgb(252, 243, 255);
+    color: #ffc800;
+}
