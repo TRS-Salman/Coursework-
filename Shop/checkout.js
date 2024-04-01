@@ -34,3 +34,7 @@ function validate() {
       alert('Please fill out all required fields.');
     }
 }
+
+function cancel(){
+  window.location.href = "shop.html";
+}
