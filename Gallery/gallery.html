@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gallery</title>
+        <link rel="stylesheet" href="stylesheets/gallery.css">
+        <link rel="stylesheet" href="stylesheets/navbar.css">
+        <link rel="stylesheet" href="stylesheets/footer.css">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <!-- bootstrap links -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- bootstrap links -->
+        <!-- fonts links -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <!-- fonts links -->
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html" id="logo"><span id="span1">U</span>nit<span>Y</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                //<span><img src="./images/menu.png" alt="" width="30"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sitemap</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="feedback_form.html">Feedback</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Other's pages
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(67 0 86);">
+                      <li><a class="dropdown-item" href="#">User profile</a></li>
+                      <li><a class="dropdown-item" href="#">Team description</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+        <!-- navbar -->
+        <a href="#" class="arrow"><i><img src="./images/arrow.png" alt=""></i></a>
+        
+       <!-- Creating the first image of the page -->
+       <div class="welcome_img">
+        <img src="images/extra/city.jpg" alt="new york city black and white" width="600" height="650">
+       </div>
+       
+       <!-- Writing all the information in the first section along with the image. -->
+       <div class="welcome_section" id="welcome">
+
+        <h1 class="welcome_text">Welcome to the Gallery Page!</h1>
+        <p class="welcome_text">Scroll Down to find out more about our mission for future innovation and infrastructure that will help us improve our cities in the future.</p>
+        <p class="welcome_text">Click the buttons below to change the website to fit your preferences!</p>
+        <p class="welcome_text">Click on the colors to change the color scheme of thumbnail images!</p>
+
+        <!-- Creating buttons -->
+        <h3 class="button">Dark Mode</h3>
+        <h3 class="button">Light Mode</h3>
+        <h3 class="button">Accessible Text</h3>
+        <h3 class="button">Revert Text</h3>
+
+        <h3 class="button">Pink</h3>
+        <h3 class="button">Cyan</h3>
+        <h3 class="button">Beige</h3>
+        <h3 class="button">Original Color</h3>
+        
+       </div> 
+
+       <br><br>
+
+       <!-- Allows the user to scroll through images -->
+       <div class="scroll">
+          <img src="images/infrastructure/new_york.jpg" alt="new york" width="400" height="300" id="scroll_img1">
+          <img src="images/industries/power_plant.jpg" alt="power plant" width="400" height="300" id="scroll_img2">
+          <img src="images/innovation/brain.jpg" alt="brain" width="400" height="300" id="scroll_img3">
+          <img src="images/extra/flags.jpg" alt="Flags" width="400" height="300" id="scroll_img4">
+       </div>
+       
+       <!-- Selected user choice and changes when user clicks on different images -->
+       <div class="#selected">
+        <a href="#selected"><img src="images/infrastructure/new_york.jpg" alt="new york" width="600" id="selected_img"></a>
+        <p id="selected_text">In the future, we hope to develop high quality and sustainable infrastructure in the future to help LDCs boost their economy.</p>
+       </div>
+       
+       <!-- First section of the page -->
+       <div id="image_section1" class="section">
+         <a href="#more_info_section"><img src="images/infrastructure/roads.jpg"  alt="sustainable roads" width="500" height="500" id="section1_img"></a>
+         <h1>Future Plans for Infrastrucure</h1>
+         <p class="section_text">
+            In the future, one of our targets is to ensure that we develop quality, reliable, sustainable and resilient infrastructure, to help support
+            economic development and human well-being, allowing more afforable equitable access for all.
+         </p>
+
+         <p class="section_text">
+            Sustainable Infrastructure is very important for the future because it helps reduce our environmental and carbon footprint
+            being emittied into the air, which ultimately helps mitigate climate change.
+         </p>
+
+         <p class="section_text">Click on the image to find out more!</p>
+
+       </div>
+
+       <br><br>
+       
+       <!-- Second section of the page -->
+       <div id="image_section2" class="section">
+         <a href="#more_info_section"><img src="images/industries/pipes.jpg" alt="industrialization pipes" width="450" height="500" id="section2_img"></a>
+         <h1>Future Plans for Industrialization</h1>
+         <p class="middle_section_text">
+            Another one of our targets we hop to achieve in the future is to promote inclusive and sustainable industrialization,
+            so by 2030, help to raise industry's share of employment and gross domestic product, in line with national circumstances.
+         </p>
+ 
+         <p class="middle_section_text">
+           More sustainable industrialization can help provide jobs and infrastructure, which can ultimately help boost a countries' 
+           economic growth, which means more money being spent in the country and utimately improving the quality of life for many people.
+           Sustainable industrialization also ensures that it benefits our environment today because it helps greenhouse gas emissions, which of course, 
+           helps mitgate climate change.
+         </p>
+
+         <p class="middle_section_text">Click on the image to find out more!</p>
+       </div>
+
+       <br><br>
+
+
+        <!-- Third section of the page -->
+       <div id="image_section3" class="section">
+         <a href="#more_info_section"><img src="images/innovation/nasa.jpg" alt="nasa astronaut" width="450" height="500" id="section3_img"></a>
+         <h1>Future plans for Innovation</h1>
+         <p class="section_text">
+            By 2030, we plan to enhance scientific research to help upgrade the technological capabilities of industrial sectors
+            in all countries, in particular developing countres which ultimately helps encorage innovate and substantially the number
+            of research and development workers per 1 million people.
+         </p>
+
+         <p class="section_text">
+            Innovative countries can boost economic growth as it can attract talent from other parts of the world because they would want to 
+            get invovled with innovative industries such as NASA who specialises in space and technology which would be an exciting field for a person 
+            to become invovled with.
+         </p>
+
+         <p class="section_text">Click on the image to find out more!</p>
+       </div>
+
+       <br><br>
+       
+       <!-- Last section that shows more information on particular topics -->
+       <div class="more_info_img" id="last_section">
+         <a href="#last_section"><img src="images/infrastructure/roads.jpg" alt="roads" width="600" height="650" id="info_img"></a>
+       </div>
+       
+       <div class="more_info" id="more_info_section">
+        <br><br>
+        <h1 id="more_info_header">More Info on <span id="option_info">Infrastructure</span></h1>
+        <p class="more_info_text">
+           Developing sustainable and quality infrastructure can help benefit a persons' lifestyle, for example, sustainable roads allow
+           low and zero emission, decreases congestion, decreases traffic jams, allowing people to get to work quickly without issues
+           and ultimately emit less pollution.
+        </p>
+
+        <p class="more_info_text">
+            We have noticed that in 1997, the UN General Assembly further noted that, over the next twenty years,
+            transportation would be expected to be the major driving force behind a growing world demand for energy, so it's important to focus on
+            maintaining sustainable transport in the future.
+        </p>
+        
+        <!-- Links to other websites  -->
+        <a class="more_info_text" href="https://sdgs.un.org/topics/sustainable-transport" target="_blank"><p>Click here to find out more</p></a>
+       </div>
+
+       <br><br>
+
+       <!-- Write your comments here -->
+       <div class="end_of_page">
+        <h1 id="endofpage_header">Thanks For Visting the Gallery Website! <a href="#welcome">(Scroll Up)</a></h1>
+        <img src="images/random_cities/city1.jpg" alt="skyline cities" width="400">
+        <img src="images/random_cities/city2.jpg" alt="skyline cities" width="400">
+        <img src="images/random_cities/city3.jpg" alt="skyline cities" width="400">
+       </div>
+
+       <footer id="footer">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+  
+              
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Usefull Links</h4>
+               <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About team</a></li>
+                <li><a href="content -page-1.html">Content page 1 </a></li>
+                <li><a href="content-page-2.html">Content page 2 </a></li>
+                <li><a href="content-page-3.html">Content page 3 </a></li>
+                <li><a href="#">Content page 4 </a></li>
+               </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        
+          <div class="credits">
+            <a href="page_editor.html">PAGE EDITOR</a>
+          </div>
+        </div>
+      </footer>
+      <!-- footer -->
+
+       <!-- Script to make pages more interactive  -->
+       <script src="scripts/gallery.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </body>
+
+    
+    
+</html>

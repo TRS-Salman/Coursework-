@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheets/sitemap.css">
+        <title>SVG Map</title>
+
+    </head>
+
+    <body>
+
+        <!-- Creating buttons -->
+
+        <div class="type_of_text">
+            <input type="button" class="text_change" value="Accessible Text">
+            <input type="button" class="text_change" value="Revert Text">
+        </div>
+
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 680 680">
+            
+            <!-- Section for Home Rectangle -->
+            <g id="group1">
+              <rect stroke="black" stroke-width="2" x="250" y="1" width="110" height="50" fill="white" class="rect"/>
+             <a href="https://www.adultswim.com/videos/rick-and-morty"><text x="287" y="33" font-size="0.8vw" fill="black" class="text">Home</text></a>
+            </g>
+            
+            <!-- Lines starting from "home" and extending to the other rectangles -->
+            <g id="lines1">
+                <line stroke="black" stroke-width="2" x1="300" y1="50" x2="300" y2="110" class="lines"></line>
+                <line stroke="black" stroke-width="2" x1="0" y1="110" x2="570" y2="110" class="lines"></line> 
+            </g>
+
+            <!-- Long line from left to right starting to connect to the other rectangles -->
+            
+            <g id="lines2">
+                <line stroke="black" stroke-width="2" x1="0" y1="110" x2="0" y2="150" class="lines"></line>
+                <line stroke="black" stroke-width="2" x1="145" y1="110" x2="145" y2="150" class="lines"></line>
+                <line stroke="black" stroke-width="2" x1="300" y1="110" x2="300" y2="150" class="lines"></line>
+                <line stroke="black" stroke-width="2" x1="439" y1="110" x2="439" y2="150" class="lines"></line>
+                <line stroke="black" stroke-width="2" x1="570" y1="110" x2="570" y2="150" class="lines"></line> 
+            </g>
+
+            <!-- Lines for each rectangle connecting to the team rectangle (except "home") -->
+
+            <g id="lines3">
+                <line stroke="black" stroke-width="2" x1="0" y1="180" x2="0" y2="285" class="lines"></line> 
+                <line stroke="black" stroke-width="2" x1="0" y1="285" x2="300" y2="285" class="lines"></line> 
+
+                <line stroke="black" stroke-width="2" x1="145" y1="145" x2="145" y2="270" class="lines"></line>
+                <line stroke="black" stroke-width="2" x1="145" y1="270" x2="300" y2="270" class="lines"></line>
+
+                <line stroke="black" stroke-width="2" x1="300" y1="110" x2="300" y2="300" class="lines"></line>
+
+                <line stroke="black" stroke-width="2" x1="439" y1="110" x2="439" y2="270" class="lines"></line>
+                <line stroke="black" stroke-width="2" x1="439" y1="270" x2="200" y2="270" class="lines"></line>
+
+                <line stroke="black" stroke-width="2" x1="570" y1="110" x2="570" y2="285" class="lines"></line>
+                <line stroke="black" stroke-width="2" x1="570" y1="285" x2="300" y2="285" class="lines"></line>
+                
+            </g>
+           
+            <!-- Section for Gallery Rectangle -->
+            <g id="group2">
+                <rect stroke="black" stroke-width="2" x="-30" y="140" width="95" height="50" fill="white" class="rect"/>
+                <a href=""><text x="-11" y="169" font-size="0.8vw" fill="black" class="text">Gallery</text></a>
+            </g>
+            
+            <!-- Section for Shop Rectangle -->
+            <g id="group3">
+                <rect stroke="black" stroke-width="2" x="110" y="140" width="80" height="50" fill="white" class="rect"/>
+                <a href=""><text x="135" y="169"  font-size="0.8vw" fill="black" class="text">Shop</text></a>
+            </g>
+
+            <!-- Section for User Profile Rectangle -->
+            <g id="group4">
+               <rect stroke="black" stroke-width="2" x="260" y="140" width="110" height="50" fill="white" class="rect"/>
+               <a href=""><text x="275" y="169"  font-size="0.8vw" fill="black" class="text">User Profile</text></a>
+            </g>
+
+            <!-- Section for Sitemap Rectangle -->
+            <g id="group5">
+                <rect stroke="black" stroke-width="2" x="400" y="140" width="95" height="50" fill="white" class="rect"/>
+                <a href=""><text x="422" y="169"  font-size="0.8vw" fill="black" class="text">Sitemap</text></a>
+            </g>
+            
+            <!-- Section for Feedback Rectangle -->
+            <g id="group6">
+               <rect stroke="black" stroke-width="2" x="530" y="140" width="95" height="50" fill="white" class="rect"/> 
+               <a href=""><text x="550" y="169" font-size="0.8vw" fill="black" class="text">Feedback</text></a>
+            </g>
+
+            <!-- Section for Team Rectangle -->
+            <g id="group7">
+               <rect stroke="black" stroke-width="2" x="250" y="260" width="95" height="50" fill="white" class="rect"/>  
+               <a href=""><text x="281" y="290" font-size="0.8vw" fill="black" class="text">Team</text></a>
+            </g>
+            
+        </svg>
+        
+        <!-- Creating a script to allow the website to become more interactive -->
+        <script src="sitemap.css"></script>
+    </body>
+</html>
