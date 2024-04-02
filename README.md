@@ -7,7 +7,7 @@ https://w1989035.users.ecs.westminster.ac.uk/Unity/content_ST1.html
 https://w1989035.users.ecs.westminster.ac.uk/Unity/pageEditor_ST1.html
 
 # Student 2
-https://w2014005.users.ecs.westminster.ac.uk/Unity/shop.html
+https://w2014005.users.ecs.westminster.ac.uk/Unity/home.html
 https://w2014005.users.ecs.westminster.ac.uk/Unity/feeback.html
 https://w2014005.users.ecs.westminster.ac.uk/Unity/content_ST2.html
 https://w2014005.users.ecs.westminster.ac.uk/Unity/pageEditor_ST2.html
