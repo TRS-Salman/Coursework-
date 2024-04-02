@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    background-color: lightskyblue;
+}
+
+#my-info{
+    border-top: 1px solid;
+    border-bottom: 1px solid ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+#my-pages{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#pages{
+    padding: 0 45% 0 45%;
+    background-color: lightblue;
+    height: 82vh;
+}
+
+hr{
+    width: 100%;
+    size: 1;
+    color: black;
+}

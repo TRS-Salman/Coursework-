@@ -1,0 +1,114 @@
+body{
+    background-color: darkgray;
+}
+
+
+main{
+    padding: 30px 30% 0 30%;
+}
+
+h2{
+    font-size: 35px;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkorchid;
+}
+
+
+.button{
+    background-color: black;
+    border-radius:30px ;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+.top-button{
+    position: fixed;
+    background-color: black;
+    border-radius: 30px;
+    padding: 5px;
+    z-index: 99;
+    margin-left: 90%;
+    
+}
+
+main a{
+    color: white;
+    
+}
+
+
+
+#p1, #p2, #p3, #p4{
+    border-radius: 10px;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+
+#p1{
+    background-color: darkcyan;
+}
+
+#p1 p, #p3 p{
+    color: white;
+}
+
+#p1-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(images/p1.jpeg);
+    border-radius: 10px;
+    
+}
+
+
+
+#p2{
+    background-color: darkorange;
+}
+
+#p2-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(images/p2.jpeg);
+    border-radius: 10px;
+}
+
+
+
+
+#p3{
+    background-color: darkslategray;
+}
+
+#p3-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(images/p3.png);
+    border-radius: 10px;
+}
+
+
+#p4{
+    background-color: darksalmon;
+}
+
+
+#p4-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(images/p4.webp);
+    border-radius: 10px;
+}
+

@@ -55,7 +55,7 @@ header{
 
 main{
     display: flex;
-    margin: 10px 0 0 5px;
+    margin: 1px 0 0 5px;
     background-color: rgb(183, 183, 183);
 }
 
