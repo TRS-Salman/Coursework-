@@ -14,7 +14,7 @@ https://w2014005.users.ecs.westminster.ac.uk/Unity/pageEditor_ST2.html
 
 
 # Student 3
-https://w1989182.users.ecs.westminster.ac.uk/Unity/user_profile.html
+https://w1989182.users.ecs.westminster.ac.uk/Unity/profile.html
 https://w1989182.users.ecs.westminster.ac.uk/Unity/team.html
 https://w1989182.users.ecs.westminster.ac.uk/Unity/content_ST3.html
 https://w1989182.users.ecs.westminster.ac.uk/Unity/pageEditor_ST3.html
